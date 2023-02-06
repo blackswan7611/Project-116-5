@@ -1,0 +1,25 @@
+
+
+.btn-info:hover
+{
+    background-color: rgba(133, 86, 187, 0.984);
+}
+
+h3
+{
+    font-size: 30px !important;
+}
+
+canvas
+{
+    animation-name: webcamBorder;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes webcamBorder
+{
+    from{box-shadow: 1px 1px 38px rgb(6, 206, 123);}
+    to {box-shadow: 1px 1px 38px rgb(5, 144, 230);}
+}
+
